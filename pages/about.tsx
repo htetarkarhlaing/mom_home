@@ -4,15 +4,18 @@ const About = () => {
     return (
         <div className="w-full h-screen bg-red-100">
             <div className="w-full h-16 p-5 px-11 flex justify-between items-center">
-                <div className="w-16 h-16">
-                    <img src="/aboutlogo.png" alt="navlogo"/>
+                <div className="flex items-center">
+                    <div className="w-12 h-12">
+                        <img src="/aboutlogo.png" alt="navlogo"/>
+                    </div>
+                    <span className="font-theme text-2xl font-semibold text-red-800">Mom's Home</span>
                 </div>
 
                 <ul className="flex justify-between">
-                    <li className="mx-5 font-bold text-red-500 cursor-pointer border-b-2 hover:border-red-600 hover:text-red-600">Why pizza!</li>
-                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-b-2 hover:border-red-600 hover:text-gray-800">Services</li>
-                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-b-2 hover:border-red-600 hover:text-gray-800">Menu</li>
-                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-b-2 hover:border-red-600 hover:text-gray-800">Contact</li>
+                    <li className="mx-5 font-bold text-red-500 cursor-pointer border-transparent border-b-2 hover:border-red-400 hover:text-red-600">Why pizza!</li>
+                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-transparent border-b-2 hover:border-red-400 hover:text-gray-800">Services</li>
+                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-transparent border-b-2 hover:border-red-400 hover:text-gray-800">Menu</li>
+                    <li className="mx-5 font-bold text-gray-700 cursor-pointer border-transparent border-b-2 hover:border-red-400 hover:text-gray-800">Contact</li>
                 </ul>
 
                 <div className="flex items-center">
