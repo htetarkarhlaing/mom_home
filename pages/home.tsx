@@ -26,7 +26,7 @@ const Home = () => {
     <div className="w-full h-screen">
     {/* Start Nav bar  */}
       <div className="w-full h-16 p-5 px-11 flex justify-between items-center fixed top-0 left-0 z-50">
-        <div className="flex items-center">
+        <div className="flex items-center cursor-pointer">
           <div className="w-12 h-12">
             <Image
               src="/aboutlogo.png"
@@ -62,16 +62,16 @@ const Home = () => {
       </div>
     {/* End Nav bar  */}
 
-      <div className="flex">
-        <div className="w-auto h-auto pt-36 pl-44">
+      <div className="grid grid-cols-12 gap-4 ml-20">
+        <div className="col-span-4 mt-36">
           <div className="bg-red-100 w-44 rounded-full flex items-center justify-center">
               <span className="text-sm text-red-500 p-3 font-sans">More Than Faster<i className="fa-solid fa-apple-whole mx-2 text-red-600"></i></span>
           </div>
 
           <div className="mt-8">
-            <span className="text-6xl font-bold">Be The Fastest</span>
-            <span className="block text-6xl font-bold mt-4">In Delivering Your</span>
-            <span className="block text-6xl font-bold text-red-500 mt-4">
+            <span className="text-5xl font-bold">Be The Fastest</span>
+            <span className="block text-5xl font-bold mt-4">In Delivering Your</span>
+            <span className="block text-5xl font-bold text-red-500 mt-4">
               Your Food
             </span>
             <span className="block py-4 text-gray-700">
@@ -81,11 +81,11 @@ const Home = () => {
 
           <div>
             <button className="bg-red-500 text-white p-3 px-4 rounded-full">Get Started</button>
-            <button className="mx-3 text-sm"><i class="fa-solid fa-circle-play text-lg text-gray-500"></i> Watch Video</button>
+            <button className="mx-3 text-sm"><i className="fa-solid fa-circle-play text-lg text-gray-500"></i> Watch Video</button>
           </div>          
         </div>
 
-        <div className="pt-24 pl-20">
+        <div className="col-span-4 mt-24">
             <Image
               src="/chef.png"
               alt="chef"
@@ -95,7 +95,7 @@ const Home = () => {
             />
         </div>
 
-        <div className="pt-44 pl-8">
+        <div className="col-span-3 mt-44">
           <div className="bg-violet-200 px-5 p-2 rounded-lg flex items-center justify-center my-4">
             <Image
               src="/cupcake.png"
